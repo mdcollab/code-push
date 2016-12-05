@@ -702,6 +702,7 @@ function printDeploymentList(command: cli.IDeploymentListCommand, deployments: D
                     row.push(getPackageString(deployment.package));
                     row.push(getPackageMetricsString(deployment.package));
                 }
+                row.push(JSON.stringify(deployment.package));
 
                 dataSource.push(row);
             });
