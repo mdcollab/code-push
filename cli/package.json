@@ -26,7 +26,7 @@
   "dependencies": {
     "backslash": "^0.1.7",
     "base-64": "^0.1.0",
-    "chalk": "^1.1.0",
+    "chalk": "^2.0.0",
     "cli-table": "^0.3.1",
     "code-push": "1.11.1-beta",
     "email-validator": "^1.0.3",
@@ -43,10 +43,10 @@
     "rimraf": "^2.5.1",
     "semver": "4.3.6",
     "simctl": "0.0.9",
-    "update-notifier": "^0.5.0",
+    "update-notifier": "^0.6.1",
     "which": "^1.2.7",
     "wordwrap": "1.0.0",
     "xml2js": "^0.4.16",
-    "yargs": "^3.15.0"
+    "yargs": "^13.2.4"
   }
 }
